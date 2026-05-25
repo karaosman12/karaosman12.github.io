@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ali Karaosman - Web Tasarımcı & Geliştirici. Modern web siteleri, SEO optimizasyonu ve mobil uyumlu tasarımlar.">
+    <meta name="author" content="Ali Karaosman">
+    <meta name="keywords" content="web tasarım, web geliştirme, HTML, CSS, JavaScript, Python, freelance">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://img.icons8.com/color/32/source-code.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://img.icons8.com/color/16/source-code.png">
+    <link rel="apple-touch-icon" href="https://img.icons8.com/color/180/source-code.png">
+    
+    <title>Ali Karaosman - Web Tasarımcı & Geliştirici</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <ul>
+            <li>
+                <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.github.com/karaosman12" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </li>
+            <li class="search-container">
+                <label for="searchInput" class="sr-only">Site içinde ara</label>
+                <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+                <input class="search" type="text" id="searchInput" placeholder="Ara..." aria-label="Site içinde ara">
+            </li>
+        </ul>
+    </header>
+
+    <nav class="navbar-sticky" role="navigation" aria-label="Ana navigasyon">
+        <ul>
+            <li><a href="#home" class="nav-link active" aria-current="page">Anasayfa</a></li>
+            <li><a href="#journey" class="nav-link">Yolculuğum</a></li>
+            <li><a href="#services" class="nav-link">Hizmetler</a></li>
+            <li><a href="#projects" class="nav-link">Projeler</a></li>
+            <li><a href="#about" class="nav-link">Hakkımda</a></li>
+            <li><a href="#blog" class="nav-link">Blog</a></li>
+            <li><a href="#contact" class="nav-link">İletişim</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <!-- ANASAYFA -->
+        <section id="home" class="home-section active" aria-hidden="false">
+            <div class="baslik"><h1>Ali Karaosman</h1></div>
+            <div class="subtitle"><p>Web Tasarımcı & Geliştiricisi</p></div>
+            
+            <div class="fotograf-cart">
+                <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800&q=80" alt="Dizüstü bilgisayarda blog yazma sahnesi" loading="eager">
+                <div class="text">
+                    <h3>Dijital Günlüğüm</h3>
+                    <h2>Merhaba! Benim web deneyimlerimle tanışın</h2>
+                </div>
+            </div>
+        </section>
+
+        <!-- DENEYİMLERİM & SÜREÇLERİM (TIMELINE) -->
+        <section id="journey" class="journey-section" aria-hidden="true">
+            <h2 class="section-title">🚀 Yolculuğum & Süreçlerim</h2>
+            <p class="journey-subtitle">Bir öğrenci olarak web geliştirme dünyasındaki yolculuğum. Her gün yeni şeyler öğreniyorum ve kendimi geliştirmeye devam ediyorum.</p>
+
+            <!-- Şu anki durum kartı -->
+            <div class="current-status">
+                <div class="status-badge">
+                    <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+                    <span>Aktif Öğrenci</span>
+                </div>
+                <p>Şu anda bir öğrenciyim ve her gün yeni teknolojiler öğrenmeye devam ediyorum. Frontend tarafında kendimi güçlü hissediyorum ancak backend alanında hâlâ öğrenecek çok şeyim var. Bu yolculukta her hata beni bir adım ileri taşıyor.</p>
+            </div>
+
+            <!-- Timeline -->
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot">
+                        <i class="fas fa-play" aria-hidden="true"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2023 - Başlangıç</div>
+                        <h3>Web Dünyasıyla Tanışma</h3>
+                        <p>İlk kez HTML ve CSS ile tanıştım. Basit bir "Merhaba Dünya" sayfası bile beni heyecanlandırdı. Her şey bir merak ile başladı.</p>
+                        <div class="timeline-tags">
+                            <span class="tag tag-learned"><i class="fab fa-html5"></i> HTML</span>
+                            <span class="tag tag-learned"><i class="fab fa-css3"></i> CSS Temelleri</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot">
+                        <i class="fab fa-css3-alt" aria-hidden="true"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2023 - İlerleme</div>
+                        <h3>CSS ile Tasarımın Gücünü Keşfettim</h3>
+                        <p>Flexbox, Grid, animasyonlar ve responsive tasarım öğrendim. Web sayfalarının sadece içerik değil, bir sanat eseri olabileceğini anladım.</p>
+                        <div class="timeline-tags">
+                            <span class="tag tag-learned"><i class="fab fa-css3"></i> CSS3 İleri</span>
+                            <span class="tag tag-learned">Flexbox</span>
+                            <span class="tag tag-learned">Grid</span>
+                            <span class="tag tag-learned">Responsive</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot">
+                        <i class="fab fa-js" aria-hidden="true"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2024</div>
+                        <h3>JavaScript - İşler Ciddiye Bindi</h3>
+                        <p>JavaScript ile sayfalara hayat vermeyi öğrendim. DOM manipülasyonu, event'ler, API çağrıları... Artık statik sayfalar yerine interaktif uygulamalar yapabiliyordum.</p>
+                        <div class="timeline-tags">
+                            <span class="tag tag-learned"><i class="fab fa-js"></i> JavaScript</span>
+                            <span class="tag tag-learned">DOM</span>
+                            <span class="tag tag-learned">API Fetch</span>
+                            <span class="tag tag-learned">ES6+</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot">
+                        <i class="fab fa-python" aria-hidden="true"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2024</div>
+                        <h3>Python ile Tanışma</h3>
+                        <p>Python'un basit sözdizimi beni çok etkiledi. Temel programlama mantığını, veri yapılarını ve algoritmik düşünmeyi Python ile pekiştirdim.</p>
+                        <div class="timeline-tags">
+                            <span class="tag tag-learned"><i class="fab fa-python"></i> Python</span>
+                            <span class="tag tag-learned">Algoritmalar</span>
+                            <span class="tag tag-learning">OOP</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot">
+                        <i class="fab fa-github" aria-hidden="true"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2024 - 2025</div>
+                        <h3>GitHub & Proje Yönetimi</h3>
+                        <p>Git ve GitHub kullanmayı öğrendim. Projelerimi paylaşmaya, versiyon kontrolü yapmaya ve açık kaynak dünyasını keşfetmeye başladım.</p>
+                        <div class="timeline-tags">
+                            <span class="tag tag-learned"><i class="fab fa-git-alt"></i> Git</span>
+                            <span class="tag tag-learned"><i class="fab fa-github"></i> GitHub</span>
+                            <span class="tag tag-learned">Versiyon Kontrolü</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot">
+                        <i class="fab fa-react" aria-hidden="true"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2025 - Şu An</div>
+                        <h3>React & Modern Frontend</h3>
+                        <p>React ile component bazlı düşünmeyi öğreniyorum. Modern frontend araçlarını keşfediyorum. Her proje yeni bir şey öğretiyor.</p>
+                        <div class="timeline-tags">
+                            <span class="tag tag-learning"><i class="fab fa-react"></i> React</span>
+                            <span class="tag tag-learning">Component Yapısı</span>
+                            <span class="tag tag-learning">State Yönetimi</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item timeline-future">
+                    <div class="timeline-dot">
+                        <i class="fas fa-database" aria-hidden="true"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Hedeflerim</div>
+                        <h3>Backend & Veritabanları - Eksiklerim</h3>
+                        <p>Backend tarafı benim en büyük eksik alanım. Node.js, veritabanları (SQL/NoSQL), sunucu yönetimi ve API geliştirme konularında kendimi geliştirmem gerekiyor. Bu alanları öğrenmek en büyük hedeflerimden biri.</p>
+                        <div class="timeline-tags">
+                            <span class="tag tag-todo"><i class="fab fa-node-js"></i> Node.js</span>
+                            <span class="tag tag-todo"><i class="fas fa-database"></i> SQL</span>
+                            <span class="tag tag-todo">MongoDB</span>
+                            <span class="tag tag-todo">REST API</span>
+                            <span class="tag tag-todo">Express.js</span>
+                            <span class="tag tag-todo">Sunucu Yönetimi</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Beceri Durumu -->
+            <div class="skills-status">
+                <h3>📊 Mevcut Durumum</h3>
+                <div class="skill-bars">
+                    <div class="skill-bar-item">
+                        <div class="skill-bar-header">
+                            <span>HTML & CSS</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar-track">
+                            <div class="skill-bar-fill" style="--fill-width: 85%;" data-level="İyi"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar-item">
+                        <div class="skill-bar-header">
+                            <span>JavaScript</span>
+                            <span>65%</span>
+                        </div>
+                        <div class="skill-bar-track">
+                            <div class="skill-bar-fill" style="--fill-width: 65%;" data-level="Orta-İyi"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar-item">
+                        <div class="skill-bar-header">
+                            <span>Python</span>
+                            <span>50%</span>
+                        </div>
+                        <div class="skill-bar-track">
+                            <div class="skill-bar-fill" style="--fill-width: 50%;" data-level="Orta"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar-item">
+                        <div class="skill-bar-header">
+                            <span>React</span>
+                            <span>30%</span>
+                        </div>
+                        <div class="skill-bar-track">
+                            <div class="skill-bar-fill" style="--fill-width: 30%;" data-level="Öğreniyorum"></div>
+                        </div>
+                    </div>
+                    <div class="skill-bar-item">
+                        <div class="skill-bar-header">
+                            <span>Backend (Node.js, SQL)</span>
+                            <span>10%</span>
+                        </div>
+                        <div class="skill-bar-track">
+                            <div class="skill-bar-fill skill-bar-weak" style="--fill-width: 10%;" data-level="Başlangıç"></div>
+                        </div>
+                    </div>
+                </div>
+                <p class="skills-note"><i class="fas fa-info-circle" aria-hidden="true"></i> Bu değerler kendi özdeğerlendirmemdir. Her gün pratik yaparak ilerliyorum.</p>
+            </div>
+        </section>
+
+        <!-- HİZMETLER -->
+        <section id="services" class="services-section" aria-hidden="true">
+            <h2 class="section-title">🌐 Web Sayfası Hizmetleri</h2>
+            <div class="services-container">
+                <div class="service-card">
+                    <i class="fas fa-pencil-alt" aria-hidden="true"></i>
+                    <h3>Web Tasarım</h3>
+                    <p>Modern ve responsive web tasarımları. Markanızı en iyi şekilde tanıtacak profesyonel tasarımlar.</p>
+                    <ul class="service-features">
+                        <li>✓ Responsive Tasarım</li>
+                        <li>✓ Modern UI/UX</li>
+                        <li>✓ Mobile Uyumlu</li>
+                        <li>✓ SEO Optimizasyonu</li>
+                    </ul>
+                    <div class="service-contact">
+                        <p class="price">Başlangıç Fiyatı: <strong>2.000₺</strong></p>
+                        <button class="contact-btn" onclick="handleServiceContact('email')">
+                            <i class="fas fa-envelope" aria-hidden="true"></i> E-posta ile İletişim
+                        </button>
+                        <button class="contact-btn whatsapp-btn" onclick="contactWhatsApp()">
+                            <i class="fab fa-whatsapp" aria-hidden="true"></i> WhatsApp ile Yazın
+                        </button>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <i class="fas fa-code" aria-hidden="true"></i>
+                    <h3>Web Geliştirme</h3>
+                    <p>HTML, CSS, JavaScript ve Python ile güçlü, hızlı ve güvenilir web uygulamaları geliştiriyorum.</p>
+                    <ul class="service-features">
+                        <li>✓ Frontend Geliştirme</li>
+                        <li>✓ Backend Geliştirme</li>
+                        <li>✓ Veritabanı Tasarımı</li>
+                        <li>✓ API Entegrasyonu</li>
+                    </ul>
+                    <div class="service-contact">
+                        <p class="price">Başlangıç Fiyatı: <strong>10.000₺</strong></p>
+                        <button class="contact-btn" onclick="handleServiceContact('email')">
+                            <i class="fas fa-envelope" aria-hidden="true"></i> E-posta ile İletişim
+                        </button>
+                        <button class="contact-btn whatsapp-btn" onclick="contactWhatsApp()">
+                            <i class="fab fa-whatsapp" aria-hidden="true"></i> WhatsApp ile Yazın
+                        </button>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <i class="fas fa-mobile-alt" aria-hidden="true"></i>
+                    <h3>Mobil Uyum</h3>
+                    <p>Web sitenizi tüm cihazlara (telefon, tablet, bilgisayar) uyumlu hale getiriyorum.</p>
+                    <ul class="service-features">
+                        <li>✓ Mobile First</li>
+                        <li>✓ Cross-browser</li>
+                        <li>✓ Hız Optimizasyonu</li>
+                        <li>✓ Performance</li>
+                    </ul>
+                    <div class="service-contact">
+                        <p class="price">Başlangıç Fiyatı: <strong>800₺</strong></p>
+                        <button class="contact-btn" onclick="handleServiceContact('email')">
+                            <i class="fas fa-envelope" aria-hidden="true"></i> E-posta ile İletişim
+                        </button>
+                        <button class="contact-btn whatsapp-btn" onclick="contactWhatsApp()">
+                            <i class="fab fa-whatsapp" aria-hidden="true"></i> WhatsApp ile Yazın
+                        </button>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <i class="fas fa-search" aria-hidden="true"></i>
+                    <h3>SEO Optimizasyonu</h3>
+                    <p>Web sitenizi arama motorlarında üst sıralara çıkarmak için SEO optimizasyonu yapıyorum.</p>
+                    <ul class="service-features">
+                        <li>✓ Anahtar Kelime Analizi</li>
+                        <li>✓ Meta Tags</li>
+                        <li>✓ Link Building</li>
+                        <li>✓ Performans Raporu</li>
+                    </ul>
+                    <div class="service-contact">
+                        <p class="price">Başlangıç Fiyatı: <strong>750₺</strong></p>
+                        <button class="contact-btn" onclick="handleServiceContact('email')">
+                            <i class="fas fa-envelope" aria-hidden="true"></i> E-posta ile İletişim
+                        </button>
+                        <button class="contact-btn whatsapp-btn" onclick="contactWhatsApp()">
+                            <i class="fab fa-whatsapp" aria-hidden="true"></i> WhatsApp ile Yazın
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJELER -->
+        <section id="projects" class="projects-section" aria-hidden="true">
+            <h2 class="section-title">💻 Projelerim</h2>
+            <div class="projects-filter">
+                <label for="projectSearch" class="sr-only">Projelerde ara</label>
+                <input type="text" id="projectSearch" placeholder="Projelerde ara..." aria-label="Projelerde arama yap">
+            </div>
+            <div class="projects-grid" id="projectsContainer" role="list" aria-label="GitHub projeleri listesi">
+                <div class="loading-spinner" aria-live="polite">
+                    <i class="fas fa-spinner fa-spin" aria-hidden="true"></i> Projeler yükleniyor...
+                </div>
+            </div>
+        </section>
+
+        <!-- HAKKIMDA -->
+        <section id="about" class="about-section" aria-hidden="true">
+            <h2 class="section-title">👤 Hakkımda</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Ben Kimim?</h3>
+                    <p>Merhaba! Ben Ali Karaosman, bir web tasarımcı ve geliştirici adayı. Şu anda öğrenci olarak web teknolojilerini öğreniyorum. İyi tasarım, temiz kod ve kullanıcı deneyimine inanıyorum. Her gün kendimi geliştirmek için çalışıyorum.</p>
+                    
+                    <h3>Yetkinliklerim</h3>
+                    <ul class="skills-list" aria-label="Teknik beceriler listesi">
+                        <li><i class="fab fa-html5" aria-hidden="true"></i> HTML5</li>
+                        <li><i class="fab fa-css3" aria-hidden="true"></i> CSS3</li>
+                        <li><i class="fab fa-js" aria-hidden="true"></i> JavaScript</li>
+                        <li><i class="fab fa-python" aria-hidden="true"></i> Python</li>
+                        <li><i class="fab fa-react" aria-hidden="true"></i> React</li>
+                        <li><i class="fas fa-database" aria-hidden="true"></i> Veritabanları</li>
+                    </ul>
+
+                    <h3>GitHub Profilim</h3>
+                    <p>Benim tüm projelerime <a href="https://www.github.com/karaosman12" target="_blank" rel="noopener noreferrer">GitHub profilimde</a> erişebilirsiniz.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- BLOG -->
+        <section id="blog" class="blog-section" aria-hidden="true">
+            <h2 class="section-title">📝 Blog Yazılarım</h2>
+            <div class="blog-posts">
+                <article class="blog-post" tabindex="0" role="button" aria-label="Web Tasarımda Renkler blog yazısını oku">
+                    <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=400&q=80" alt="Kod yazılan ekran" loading="lazy">
+                    <div class="blog-post-body">
+                        <h3>Web Tasarımda Renkler Nasıl Seçilir?</h3>
+                        <p>Renk seçimi, bir web sitesinin başarısında çok önemli bir rol oynar. Doğru renk paletini seçmek, kullanıcı deneyimini önemli ölçüde iyileştirebilir.</p>
+                        <time datetime="2026-05-25" class="date">25 Mayıs 2026</time>
+                    </div>
+                </article>
+
+                <article class="blog-post" tabindex="0" role="button" aria-label="JavaScript Async blog yazısını oku">
+                    <img src="https://images.unsplash.com/photo-1633356122544-f134ef2e00de?w=400&q=80" alt="JavaScript editörü" loading="lazy">
+                    <div class="blog-post-body">
+                        <h3>JavaScript'te Asynchronous Programlama</h3>
+                        <p>Callback'lerden Promise'lere, async/await'e kadar JavaScript'te asynchronous işlemlerin nasıl çalıştığını öğrenin.</p>
+                        <time datetime="2026-05-20" class="date">20 Mayıs 2026</time>
+                    </div>
+                </article>
+
+                <article class="blog-post" tabindex="0" role="button" aria-label="Responsive Tasarım blog yazısını oku">
+                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&q=80" alt="Responsive tasarım masası" loading="lazy">
+                    <div class="blog-post-body">
+                        <h3>Responsive Web Tasarımı: Mobile First Yaklaşım</h3>
+                        <p>Modern web tasarımında responsive design artık zorunludur. Mobile first yaklaşımı kullanarak daha iyi sonuçlar elde edin.</p>
+                        <time datetime="2026-05-15" class="date">15 Mayıs 2026</time>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- İLETİŞİM -->
+        <section id="contact" class="contact-section" aria-hidden="true">
+            <h2 class="section-title">📧 İletişim</h2>
+            <p class="contact-subtitle">Bir projeniz mi var? Birlikte çalışalım! Aşağıdaki kanallardan bana ulaşabilirsiniz.</p>
+            
+            <div class="contact-center">
+                <div class="contact-cards-grid">
+                    <a href="mailto:alikaraosman629@gmail.com?subject=Web Sitesi Hakkında&body=Merhaba Ali," class="contact-card-link">
+                        <div class="contact-card">
+                            <div class="contact-card-icon email-icon">
+                                <i class="fas fa-envelope" aria-hidden="true"></i>
+                            </div>
+                            <h3>E-posta</h3>
+                            <p>alikaraosman629@gmail.com</p>
+                            <span class="contact-card-action">Tıklayın ve yazın →</span>
+                        </div>
+                    </a>
+
+                    <a href="tel:+905522686536" class="contact-card-link">
+                        <div class="contact-card">
+                            <div class="contact-card-icon phone-icon">
+                                <i class="fas fa-phone" aria-hidden="true"></i>
+                            </div>
+                            <h3>Telefon</h3>
+                            <p>+90 552 268 65 36</p>
+                            <span class="contact-card-action">Tıklayın ve arayın →</span>
+                        </div>
+                    </a>
+
+                    <a href="https://wa.me/905522686536?text=Merhaba!%20Web%20sitesi%20hakkında%20bilgi%20almak%20istiyorum." target="_blank" rel="noopener noreferrer" class="contact-card-link">
+                        <div class="contact-card">
+                            <div class="contact-card-icon whatsapp-icon">
+                                <i class="fab fa-whatsapp" aria-hidden="true"></i>
+                            </div>
+                            <h3>WhatsApp</h3>
+                            <p>+90 552 268 65 36</p>
+                            <span class="contact-card-action">Tıklayın ve yazın →</span>
+                        </div>
+                    </a>
+
+                    <a href="https://www.github.com/karaosman12" target="_blank" rel="noopener noreferrer" class="contact-card-link">
+                        <div class="contact-card">
+                            <div class="contact-card-icon github-icon">
+                                <i class="fab fa-github" aria-hidden="true"></i>
+                            </div>
+                            <h3>GitHub</h3>
+                            <p>github.com/karaosman12</p>
+                            <span class="contact-card-action">Profili ziyaret edin →</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="contact-social-bar">
+                    <h3>Sosyal Medya</h3>
+                    <div class="social-icons">
+                        <a href="https://www.github.com/karaosman12" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+
+                <div class="contact-location">
+                    <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+                    <span>Türkiye</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <button id="scrollTopBtn" class="scroll-top-btn" aria-label="Sayfanın başına dön" title="Yukarı çık">
+        <i class="fas fa-chevron-up" aria-hidden="true"></i>
+    </button>
+
+    <footer>
+        <div class="footer-main">
+            <div class="footer-col">
+                <h3>Hakkımda</h3>
+                <p>Ben Ali Karaosman, bir Web Tasarım ve Programlama öğrencisiyim. Bu sayfa üzerinden deneyimlerimi ve bilgilerimi paylaşmayı amaçlıyorum.</p>
+            </div>
+            <div class="footer-col">
+                <h3>Hızlı Linkler</h3>
+                <nav aria-label="Footer navigasyon">
+                    <ul>
+                        <li><a href="#home" class="nav-link">Anasayfa</a></li>
+                        <li><a href="#journey" class="nav-link">Yolculuğum</a></li>
+                        <li><a href="#services" class="nav-link">Hizmetler</a></li>
+                        <li><a href="#projects" class="nav-link">Projeler</a></li>
+                        <li><a href="#contact" class="nav-link">İletişim</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer-col">
+                <h3>İletişim</h3>
+                <ul>
+                    <li><a href="mailto:alikaraosman629@gmail.com"><i class="fas fa-envelope" aria-hidden="true"></i> alikaraosman629@gmail.com</a></li>
+                    <li><a href="tel:+905522686536"><i class="fas fa-phone" aria-hidden="true"></i> +90 552 268 65 36</a></li>
+                    <li><a href="https://www.github.com/karaosman12" target="_blank" rel="noopener noreferrer"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p><small>&copy; <span id="currentYear"></span> Ali Karaosman. Tüm Hakları Saklıdır.</small></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
